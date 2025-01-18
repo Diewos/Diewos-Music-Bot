@@ -58,4 +58,4 @@ async def leave(ctx):
 
 
 
-bot.run('MTI5MDcxMzU5MjAxMzc4NzI2OQ.GOUCL_.mHrTsv8Vyd2OPNvAAFMApjEgbVXcygQwTGWh0A')
+bot.run(token)
