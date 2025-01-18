@@ -10,6 +10,13 @@ intents.message_content = True
 intents.voice_states = True
 
 
+def get_token():
+    with open('config.txt', 'r') as file:
+        return file.read().replace('\n', '')
+
+token = get_token()
+
+
 bot = commands.Bot(command_prefix='&', intents=intents)
 
 @bot.event
